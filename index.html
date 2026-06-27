@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petanca AR - Soporte y Privacidad</title>
+    <style>
+        :root {
+            --bg-sand: #E3D5C8;
+            --text-charcoal: #3A3D42;
+            --accent-terracotta: #D36C4F;
+            --accent-olive: #8A9A65;
+            --card-bg: rgba(255, 255, 255, 0.6);
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-sand);
+            color: var(--text-charcoal);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .app-icon {
+            width: 120px;
+            height: 120px;
+            border-radius: 27px;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+            margin-bottom: 15px;
+        }
+
+        .header h1 {
+            color: var(--accent-terracotta);
+            font-size: 2.5rem;
+            margin-bottom: 5px;
+            margin-top: 0;
+        }
+
+        .card {
+            background-color: var(--card-bg);
+            border-radius: 20px;
+            padding: 30px;
+            margin-bottom: 30px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+
+        h2 {
+            color: var(--accent-olive);
+            border-bottom: 2px solid var(--accent-olive);
+            padding-bottom: 10px;
+            margin-top: 0;
+        }
+
+        .faq-item {
+            margin-bottom: 20px;
+        }
+
+        .faq-item h3 {
+            margin: 0 0 5px 0;
+            color: var(--text-charcoal);
+        }
+
+        .contact-button {
+            display: inline-block;
+            background-color: var(--accent-terracotta);
+            color: white;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: bold;
+            margin-top: 10px;
+            transition: opacity 0.2s;
+        }
+
+        .contact-button:hover {
+            opacity: 0.8;
+        }
+
+        footer {
+            text-align: center;
+            font-size: 0.9rem;
+            opacity: 0.7;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="icon-1024.png" alt="Petanca AR Logo" class="app-icon">
+            <h1>Petanca AR</h1>
+            <p>Soporte Técnico y Política de Privacidad</p>
+        </div>
+
+        <div class="card">
+            <h2>Ayuda y Preguntas Frecuentes</h2>
+            
+            <div class="faq-item">
+                <h3>¿Cómo lanzo la bola?</h3>
+                <p>Mantén tu pulgar en la pantalla, balancea tu brazo como si tuvieras una bola real y levanta el pulgar en el aire para soltarla. <strong>¡No sueltes tu dispositivo físico!</strong></p>
+            </div>
+
+            <div class="faq-item">
+                <h3>El piso no se detecta correctamente</h3>
+                <p>Asegúrate de estar en un área bien iluminada. Mueve tu dispositivo lentamente de lado a lado apuntando al suelo para que la cámara pueda mapear la superficie.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>No tengo espacio para mover el brazo</h3>
+                <p>Puedes activar el "Tiro Asistido" en la pantalla de configuración de jugadores. Esto te permitirá lanzar simplemente deslizando el dedo en la pantalla.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Política de Privacidad</h2>
+            <p><strong>Petanca AR no recolecta, almacena, ni transmite ningún dato personal fuera de tu dispositivo.</strong></p>
+            <p>Toda la información del juego (como nombres de jugadores, puntajes y progreso en los minijuegos) se guarda exclusivamente de manera local en tu teléfono.</p>
+            <p>El acceso a la cámara es utilizado estrictamente en tiempo real por el sistema ARKit de Apple para renderizar el mundo virtual sobre tu entorno. Ninguna imagen o video es capturado, guardado o enviado a nuestros servidores.</p>
+        </div>
+
+        <div class="card" style="text-align: center;">
+            <h2>¿Necesitas más ayuda?</h2>
+            <p>Si experimentas algún problema técnico o tienes sugerencias, estamos aquí para escucharte.</p>
+            <a href="mailto:tu-correo@ejemplo.com?subject=Soporte%20Petanca%20AR" class="contact-button">Contactar Soporte</a>
+        </div>
+
+        <footer>
+            <p>&copy; 2026 Rafael Uribe. Todos los derechos reservados.</p>
+        </footer>
+    </div>
+</body>
+</html>
